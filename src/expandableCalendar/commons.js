@@ -1,4 +1,4 @@
-import {Platform, Dimensions, I18nManager} from 'react-native';
+import {Dimensions, I18nManager, Platform} from 'react-native';
 
 const {height, width} = Dimensions.get('window');
 

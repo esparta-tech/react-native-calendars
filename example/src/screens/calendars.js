@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import moment from 'moment';
-import React, {useState, Fragment} from 'react';
-import {StyleSheet, View, ScrollView, Text, TouchableOpacity, Switch} from 'react-native';
+import React, {Fragment, useState} from 'react';
+import {ScrollView, StyleSheet, Switch, Text, TouchableOpacity, View} from 'react-native';
 import {Calendar} from 'react-native-calendars';
 
 const testIDs = require('../testIDs');
@@ -9,7 +9,6 @@ const testIDs = require('../testIDs');
 const CalendarsScreen = () => {
   const [selected, setSelected] = useState('');
   const [showMarkedDatesExamples, setShowMarkedDatesExamples] = useState(false);
-
 
   const toggleSwitch = () => {
     setShowMarkedDatesExamples(!showMarkedDatesExamples);
@@ -440,7 +439,8 @@ const CalendarsScreen = () => {
     );
   };
 
-  const renderSwitch = () => { // Workaround for Detox 18 migration bug
+  const renderSwitch = () => {
+    // Workaround for Detox 18 migration bug
     return (
       <View style={{flexDirection: 'row', margin: 10, alignItems: 'center'}}>
         <Switch

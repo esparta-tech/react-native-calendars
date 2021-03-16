@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
-import {Platform, StyleSheet, View, Text, TouchableOpacity, Button} from 'react-native';
-import {ExpandableCalendar, Timeline, CalendarProvider} from 'react-native-calendars';
+import {Button, Platform, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {CalendarProvider, ExpandableCalendar, Timeline} from 'react-native-calendars';
 import moment from 'moment';
 
 const EVENTS = [

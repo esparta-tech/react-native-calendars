@@ -2,7 +2,7 @@ import _ from 'lodash';
 import PropTypes from 'prop-types';
 import XDate from 'xdate';
 import React, {Component, Fragment} from 'react';
-import {ActivityIndicator, Platform, View, Text, TouchableOpacity, Image} from 'react-native';
+import {ActivityIndicator, Image, Platform, Text, TouchableOpacity, View} from 'react-native';
 import {shouldUpdate} from '../../component-updater';
 import {weekDayNames} from '../../dateutils';
 import {

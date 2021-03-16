@@ -1,5 +1,4 @@
 import './wdyr'; // <--- must be first import
-
 import {Navigation} from 'react-native-navigation';
 import {LocaleConfig} from 'react-native-calendars';
 import {registerScreens} from './screens';

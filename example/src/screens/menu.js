@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, View, ScrollView, TouchableOpacity, Text, Image} from 'react-native';
+import {Image, Platform, ScrollView, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {Navigation} from 'react-native-navigation';
 
 const appIcon = require('../img/app-icon-120x120.png');

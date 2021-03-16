@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 import * as ReactNative from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import dateutils from '../dateutils';
-import {xdateToData, parseDate} from '../interface';
+import {parseDate, xdateToData} from '../interface';
 import shouldComponentUpdate from './updater';
 import {extractComponentProps} from '../component-updater';
 import {WEEK_NUMBER} from '../testIDs';
@@ -88,7 +88,7 @@ class Calendar extends Component {
 
     this.shouldComponentUpdate = shouldComponentUpdate;
   }
-  
+
   addMonth = count => {
     this.updateMonth(this.state.currentMonth.clone().addMonths(count, true));
   };

@@ -1,11 +1,11 @@
 import {ComponentDriver, getTextNodes} from 'react-component-driver';
 import CalendarHeader from '.';
 import {
-  HEADER_MONTH_NAME,
   CHANGE_MONTH_LEFT_ARROW,
   CHANGE_MONTH_RIGHT_ARROW,
   HEADER_DAY_NAMES,
-  HEADER_LOADING_INDICATOR
+  HEADER_LOADING_INDICATOR,
+  HEADER_MONTH_NAME
 } from '../../testIDs';
 
 export class CalendarHeaderDriver extends ComponentDriver {

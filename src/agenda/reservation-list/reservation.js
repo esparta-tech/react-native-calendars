@@ -2,7 +2,7 @@ import _ from 'lodash';
 import PropTypes from 'prop-types';
 import XDate from 'xdate';
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import {Text, View} from 'react-native';
 import {xdateToData} from '../../interface';
 import dateutils from '../../dateutils';
 import {RESERVATION_DATE} from '../../testIDs';
